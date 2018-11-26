@@ -17,7 +17,7 @@ var commentRoutes       = require("./routes/comments"),
     indexRoutes         = require("./routes/index")
 
 //export DATABASEURL=mongodb://localhost:27017/yelp_camp
-console.log(process.env.DATABASEURL);
+
 mongoose.set("useFindAndModify", false);
 //mongoose.connect('mongodb://localhost:27017/yelp_camp', { useNewUrlParser: true });
 //mongoose.connect('mongodb://birger:birger1@ds117334.mlab.com:17334/yelpcamp-birgerve', {useNewUrlParser: true});
