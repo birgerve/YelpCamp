@@ -14,7 +14,7 @@ var express             = require("express"),
 //requiring routes
 var commentRoutes       = require("./routes/comments"),
     campgroundRoutes    = require("./routes/campgrounds"),
-    indexRoutes         = require("./routes/index")
+    indexRoutes         = require("./routes/index");
 
 //export DATABASEURL=mongodb://localhost:27017/yelp_camp
 var url = process.env.DATABASEURL;
