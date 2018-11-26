@@ -21,7 +21,7 @@ console.log(process.env.DATABASEURL);
 mongoose.set("useFindAndModify", false);
 //mongoose.connect('mongodb://localhost:27017/yelp_camp', { useNewUrlParser: true });
 //mongoose.connect('mongodb://birger:birger1@ds117334.mlab.com:17334/yelpcamp-birgerve', {useNewUrlParser: true});
-mongoose.connect(process.env.DATABASEURL, {useNewUrlParser:true});
+mongoose.connect(process.env.DATABASEURL);
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine","ejs");
